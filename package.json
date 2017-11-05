@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FlowzPlatform/vue-widgets.git"
+    "url": "git+https://github.com/bajaniyarohit/vue-split-panel.git"
   },
   "keywords": [
     "split.js",
