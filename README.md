@@ -54,7 +54,7 @@ A split with three elements, starting with even widths with 100px, 100px and 300
 A vertical split with two elements.
 
 ```html
-<Split style="height: 500px;" direction="vertical">
+<Split style="height: 500px;" :direction="vertical">
     <SplitArea>
         panel left
     </SplitArea>
