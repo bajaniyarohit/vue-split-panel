@@ -138,9 +138,9 @@ methods: {
 
 | Event Name | Description | Return Value
 |---|---|---|
-| `onDrag` | Callback on drag. | -- |
-| `onDragStart` | Callback on drag start. | -- |
-| `onDragEnd` | Callback on drag end. | -- |
+| `onDrag` | Callback on drag. | current size |
+| `onDragStart` | Callback on drag start. | new size |
+| `onDragEnd` | Callback on drag end. | new size |
 
 #### Split methods
 
@@ -176,4 +176,4 @@ This library uses [Split.js](https://github.com/nathancahill/Split.js). These fe
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/FlowzPlatform/vue-widgets/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/bajaniyarohit/vue-split-panel/blob/master/LICENSE) file for details
