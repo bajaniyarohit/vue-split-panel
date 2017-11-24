@@ -1,6 +1,6 @@
 {
   "name": "vue-split-panel",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Vue.js split-panel component",
   "main": "dist/vue-split-panel.js",
   "scripts": {
@@ -22,10 +22,11 @@
   "keywords": [
     "split.js",
     "split",
-    "split-panel",
-    "split-pan",
-    "horizantal-split",
-    "vertical-split"
+    "panel",
+    "pan",
+    "horizantal",
+    "vertical",
+    "vue"
   ],
   "author": "bajaniyarohit",
   "license": "MIT",

@@ -1,6 +1,5 @@
 # Vue-Split-Panel
 
-- __Zero Deps__
 - __Fast:__ No overhead or attached window event listeners, uses pure CSS for resizing.
 - __Compatible:__ Works great in IE9, and _even loads in IE8_ with polyfills. Early Firefox/Chrome/Safari/Opera supported too.
 
