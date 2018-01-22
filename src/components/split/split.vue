@@ -40,7 +40,7 @@
                 sizes: self.sizes,
                 minSize: self.minSizes,
                 gutterSize: self.gutterSize,
-                cursor: 'row-resize',
+                cursor: self.direction === 'horizontal' ? 'col-resize' : 'row-resize',
                 onDrag: function () {
                     self.$emit('onDrag', self.instance.getSizes());
                 },
