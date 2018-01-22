@@ -22,16 +22,7 @@
     },
     computed: {
         classes () {
-            console.log('this.$parent.direction', this.$parent.direction)
             return `split split-` + this.$parent.direction
-        }
-    },
-    mounted () {
-        console.log('abc')
-    },
-    data () {
-        return{
-            name: 'abc'
         }
     },
     watch: {
