@@ -29,6 +29,9 @@
     "vue"
   ],
   "author": "bajaniyarohit",
+  "contributors": [
+    "Kim Schmider <kontakt@schmider.kim> (https://schmider.kim/)"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bajaniyarohit/vue-split-panel/issues"
