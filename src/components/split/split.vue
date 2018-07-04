@@ -18,6 +18,10 @@
       gutterSize: {
           type: Number,
           default: 8
+      },
+      snapOffset: {
+          type: Number,
+          default: 30
       }
     },
     data() {
@@ -40,6 +44,7 @@
                 sizes: self.sizes,
                 minSize: self.minSizes,
                 gutterSize: self.gutterSize,
+                snapOffset: self.snapOffset,
                 cursor: self.direction === 'horizontal' ? 'col-resize' : 'row-resize',
                 onDrag: function () {
                     self.$emit('onDrag', self.instance.getSizes());

@@ -1,6 +1,6 @@
 {
   "name": "vue-split-panel",
-  "version": "1.0.4",
+  "version": "1.1.4",
   "description": "Vue.js split-panel component",
   "main": "dist/vue-split-panel.js",
   "scripts": {
@@ -29,6 +29,9 @@
     "vue"
   ],
   "author": "bajaniyarohit",
+  "contributors": [
+    "Kim Schmider <kontakt@schmider.kim> (https://schmider.kim/)"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bajaniyarohit/vue-split-panel/issues"
