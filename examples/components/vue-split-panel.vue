@@ -2,7 +2,7 @@
     <div>
         <button @click="Reset">Reset</button>
         <div style="border:1px solid #ccc">
-            <Split ref="split1" :gutterSize="20" @onDragEnd="onDragEnd" style="height: 500px;">
+            <Split ref="split1" :gutterSize="20" @onDragEnd="onDragEnd" :snapOffset="50" style="height: 500px;">
                 <SplitArea :size="60">
                     <Split :gutterSize="15" direction="vertical">
                         <SplitArea :size="50" :minSize="150">

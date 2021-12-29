@@ -63,10 +63,23 @@ A vertical split with two elements.
 </Split>
 ```
 
-A Setting the gutter size to 20px.
+Setting the gutter size to 20px.
 
 ```html
 <Split style="height: 500px;" :gutterSize="20">
+    <SplitArea>
+        panel left
+    </SplitArea>
+    <SplitArea>
+        panel center
+    </SplitArea>
+</Split>
+```
+
+Setting the snap offset to 20px (the distance at which the gutter snaps to either area's `minSize`).
+
+```html
+<Split style="height: 500px;" :snapOffset="20">
     <SplitArea>
         panel left
     </SplitArea>
@@ -130,8 +143,9 @@ methods: {
 
 | Property | Type | Default | Description |
 |---|---|---|---|
-| `gutterSize` | Number | 10 | Gutter size in pixels. |
 | `direction` | String | 'horizontal' | Direction to split: horizontal or vertical. |
+| `gutterSize` | Number | 10 | Gutter size in pixels. |
+| `snapOffset` | Number | 30 | Snap offset in pixels. |
 
 #### Split events
 
