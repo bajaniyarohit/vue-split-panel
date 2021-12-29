@@ -47,13 +47,13 @@
                 snapOffset: self.snapOffset,
                 cursor: self.direction === 'horizontal' ? 'col-resize' : 'row-resize',
                 onDrag: function () {
-                    self.$emit('onDrag', self.instance.getSizes());
+                    self.$emit('drag', self.instance.getSizes());
                 },
                 onDragStart: function () {
-                    self.$emit('onDragStart', self.instance.getSizes());
+                    self.$emit('dragstart', self.instance.getSizes());
                 },
                 onDragEnd: function (str) {
-                    self.$emit('onDragEnd', self.instance.getSizes());
+                    self.$emit('dragend', self.instance.getSizes());
                 }
             })
         },

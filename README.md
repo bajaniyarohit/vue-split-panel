@@ -92,7 +92,7 @@ Setting the snap offset to 20px (the distance at which the gutter snaps to eithe
 Callbacks that can be added on drag (fired continously), drag start and drag end. If doing more than basic operations in `onDrag`, add a debounce function to rate limit the callback.
 
 ```html
-<Split style="height: 500px;" @onDragEnd="onDragEnd" @onDragStart="onDragStart" onDrag="onDrag">
+<Split style="height: 500px;" @dragend="onDragEnd" @dragstart="onDragStart" @drag="onDrag">
     <SplitArea>
         panel left
     </SplitArea>
