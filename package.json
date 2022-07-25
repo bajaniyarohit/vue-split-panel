@@ -73,7 +73,7 @@
     "karma-spec-reporter": "0.0.34",
     "karma-webpack": "^5.0.0",
     "less": "^2.7.1",
-    "less-loader": "^2.2.3",
+    "less-loader": "^4.0.6",
     "lolex": "^1.5.2",
     "mocha": "^10.0.0",
     "phantomjs-prebuilt": "^2.1.13",
