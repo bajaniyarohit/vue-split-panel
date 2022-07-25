@@ -6,6 +6,7 @@ var webpackBaseConfig = require('./webpack.base.config.js');
 process.env.NODE_ENV = 'production';
 
 module.exports = merge(webpackBaseConfig, {
+  mode: 'development',
   entry: {
     main: './src/index.js'
   },

@@ -12,6 +12,7 @@ var FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin');
 
 
 module.exports = merge(webpackBaseConfig, {
+  mode: 'development',
   // Entrance
   entry: {
     main: './examples/main',
@@ -32,12 +33,17 @@ module.exports = merge(webpackBaseConfig, {
     }
   },
   plugins: [
-    new webpack.optimize.CommonsChunkPlugin({ name: 'vendors', filename: 'vendor.bundle.js' }),
     new HtmlWebpackPlugin({
       inject: true,
       filename: path.join(__dirname, '../examples/dist/index.html'),
       template: path.join(__dirname, '../examples/index.html')
     }),
     new FriendlyErrorsPlugin()
-  ]
+  ],
+  optimization: {
+    splitChunks: {
+      name: 'vendor',
+      chunks: 'initial',
+    }
+  }
 });
